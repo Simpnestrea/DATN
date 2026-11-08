@@ -1,0 +1,102 @@
+[
+  {
+    "code": "diamond",
+    "name": "Kim cương",
+    "kind": "faceted",
+    "description": "Đá cứng nhất tự nhiên, chiết suất cao nên lấp lánh mạnh.",
+    "color": "#FFFFFF",
+    "ior": 2.42,
+    "sortOrder": 1,
+    "isActive": true
+  },
+  {
+    "code": "ruby",
+    "name": "Ruby (Hồng ngọc)",
+    "kind": "faceted",
+    "description": "Sắc đỏ thẫm biểu tượng của tình yêu và may mắn.",
+    "color": "#C3122F",
+    "ior": 1.77,
+    "sortOrder": 2,
+    "isActive": true
+  },
+  {
+    "code": "sapphire",
+    "name": "Sapphire (Lam ngọc)",
+    "kind": "faceted",
+    "description": "Xanh lam sâu thẳm, bền gần bằng kim cương.",
+    "color": "#1E47C8",
+    "ior": 1.77,
+    "sortOrder": 3,
+    "isActive": true
+  },
+  {
+    "code": "emerald",
+    "name": "Emerald (Ngọc lục bảo)",
+    "kind": "faceted",
+    "description": "Xanh lục quý phái, thường cắt giác chữ nhật (emerald cut).",
+    "color": "#0E9A58",
+    "ior": 1.58,
+    "sortOrder": 4,
+    "isActive": true
+  },
+  {
+    "code": "amethyst",
+    "name": "Thạch anh tím",
+    "kind": "faceted",
+    "description": "Tím oải hương, nhẹ nhàng và thanh lịch.",
+    "color": "#8B50C9",
+    "ior": 1.54,
+    "sortOrder": 5,
+    "isActive": true
+  },
+  {
+    "code": "topaz-blue",
+    "name": "Topaz xanh",
+    "kind": "faceted",
+    "description": "Xanh da trời tươi sáng, trong suốt.",
+    "color": "#5CC2E8",
+    "ior": 1.62,
+    "sortOrder": 6,
+    "isActive": true
+  },
+  {
+    "code": "citrine",
+    "name": "Thạch anh vàng",
+    "kind": "faceted",
+    "description": "Vàng cam ấm áp như nắng.",
+    "color": "#F0A52A",
+    "ior": 1.55,
+    "sortOrder": 7,
+    "isActive": true
+  },
+  {
+    "code": "morganite",
+    "name": "Morganite",
+    "kind": "faceted",
+    "description": "Hồng đào ngọt ngào, rất hợp vàng hồng.",
+    "color": "#F1B3AE",
+    "ior": 1.59,
+    "sortOrder": 8,
+    "isActive": true
+  },
+  {
+    "code": "onyx",
+    "name": "Onyx đen",
+    "kind": "faceted",
+    "description": "Đen tuyền bóng bẩy, mạnh mẽ.",
+    "color": "#15151A",
+    "ior": 1.54,
+    "sortOrder": 9,
+    "isActive": true
+  },
+  {
+    "code": "pearl",
+    "name": "Ngọc trai",
+    "kind": "pearl",
+    "description": "Ánh xà cừ mềm mại, chỉ có dáng tròn và gắn bằng chốt (peg).",
+    "color": "#F3ECE1",
+    "ior": 1.53,
+    "sortOrder": 10,
+    "isActive": true
+  }
+]

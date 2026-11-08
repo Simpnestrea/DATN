@@ -1,0 +1,79 @@
+[
+  {
+    "code": "gold-yellow-18k",
+    "name": "Vàng 18K",
+    "group": "gold",
+    "description": "Vàng 75%, sắc vàng ấm, cứng cáp – phổ biến nhất cho nhẫn cưới.",
+    "color": "#E9BC62",
+    "metalness": 1,
+    "roughness": 0.12,
+    "sortOrder": 1,
+    "isActive": true
+  },
+  {
+    "code": "gold-yellow-24k",
+    "name": "Vàng 24K",
+    "group": "gold",
+    "description": "Vàng ròng 99,9%, sắc vàng đậm truyền thống, mềm hơn vàng 18K.",
+    "color": "#F2B33D",
+    "metalness": 1,
+    "roughness": 0.14,
+    "sortOrder": 2,
+    "isActive": true
+  },
+  {
+    "code": "gold-white-18k",
+    "name": "Vàng trắng 18K",
+    "group": "gold",
+    "description": "Vàng pha kim loại trắng và xi rhodium, sáng như bạch kim.",
+    "color": "#E7E5E0",
+    "metalness": 1,
+    "roughness": 0.1,
+    "sortOrder": 3,
+    "isActive": true
+  },
+  {
+    "code": "gold-rose-18k",
+    "name": "Vàng hồng 18K",
+    "group": "gold",
+    "description": "Vàng pha đồng, sắc hồng dịu lãng mạn.",
+    "color": "#E9A98C",
+    "metalness": 1,
+    "roughness": 0.12,
+    "sortOrder": 4,
+    "isActive": true
+  },
+  {
+    "code": "silver-925",
+    "name": "Bạc 925",
+    "group": "silver",
+    "description": "Bạc 92,5%, sáng trắng, nhẹ – phù hợp trang sức hằng ngày.",
+    "color": "#DCDDE0",
+    "metalness": 1,
+    "roughness": 0.15,
+    "sortOrder": 5,
+    "isActive": true
+  },
+  {
+    "code": "platinum-950",
+    "name": "Bạch kim 950",
+    "group": "platinum",
+    "description": "Kim loại quý hiếm, trắng xám tự nhiên, rất bền và nặng tay.",
+    "color": "#CFCFD2",
+    "metalness": 1,
+    "roughness": 0.1,
+    "sortOrder": 6,
+    "isActive": true
+  },
+  {
+    "code": "titanium-black",
+    "name": "Titan đen",
+    "group": "titanium",
+    "description": "Titan phủ đen, cá tính, nhẹ và chống trầy.",
+    "color": "#3B3B40",
+    "metalness": 1,
+    "roughness": 0.22,
+    "sortOrder": 7,
+    "isActive": true
+  }
+]

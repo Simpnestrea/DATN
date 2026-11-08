@@ -1,0 +1,32 @@
+[
+  { "type": "ring", "code": "plain", "name": "Nhẫn trơn", "description": "Đai kim loại tối giản, không đính đá chủ.", "sortOrder": 1, "isActive": true },
+  { "type": "ring", "code": "solitaire", "name": "Solitaire", "description": "Một viên đá chủ nổi bật trên ổ chấu.", "sortOrder": 2, "isActive": true },
+  { "type": "ring", "code": "halo", "name": "Halo", "description": "Đá chủ được bao quanh bởi vòng đá tấm.", "sortOrder": 3, "isActive": true },
+  { "type": "ring", "code": "three-stone", "name": "Ba viên", "description": "Đá chủ cùng hai viên đá phụ hai bên.", "sortOrder": 4, "isActive": true },
+  { "type": "ring", "code": "eternity", "name": "Eternity", "description": "Đá tấm đính liền quanh toàn bộ vòng nhẫn.", "sortOrder": 5, "isActive": true },
+  { "type": "ring", "code": "twist", "name": "Xoắn", "description": "Hai sợi kim loại xoắn vào nhau.", "sortOrder": 6, "isActive": true },
+
+  { "type": "bracelet", "code": "bangle", "name": "Vòng kiềng", "description": "Vòng tròn liền khối, có thể đính đá.", "sortOrder": 1, "isActive": true },
+  { "type": "bracelet", "code": "cuff", "name": "Vòng hở (cuff)", "description": "Vòng hở hai đầu, đầu vòng là bi hoặc đá.", "sortOrder": 2, "isActive": true },
+  { "type": "bracelet", "code": "chain", "name": "Lắc mắt xích", "description": "Lắc tay ghép từ các mắt xích tròn.", "sortOrder": 3, "isActive": true },
+  { "type": "bracelet", "code": "charm", "name": "Lắc charm", "description": "Lắc mắt xích treo các charm trang trí.", "sortOrder": 4, "isActive": true },
+  { "type": "bracelet", "code": "tennis", "name": "Lắc đá (tennis)", "description": "Một hàng đá đều nhau chạy quanh cổ tay.", "sortOrder": 5, "isActive": true },
+
+  { "type": "necklace", "code": "cable", "name": "Dây mắt xích tròn", "description": "Mắt xích tròn cổ điển, mềm mại.", "sortOrder": 1, "isActive": true },
+  { "type": "necklace", "code": "box", "name": "Dây mắt xích vuông", "description": "Mắt xích vuông chắc chắn, góc cạnh.", "sortOrder": 2, "isActive": true },
+  { "type": "necklace", "code": "bead", "name": "Dây bi", "description": "Các hạt bi tròn xâu trên sợi mảnh.", "sortOrder": 3, "isActive": true },
+  { "type": "necklace", "code": "snake", "name": "Dây rắn", "description": "Dây liền mảnh, bề mặt vảy giác.", "sortOrder": 4, "isActive": true },
+
+  { "type": "earrings", "code": "stud", "name": "Khuyên nụ", "description": "Nụ đá hoặc bi nằm sát dái tai.", "sortOrder": 1, "isActive": true },
+  { "type": "earrings", "code": "hoop", "name": "Khuyên tròn", "description": "Vòng tròn kim loại, có thể đính đá mặt trước.", "sortOrder": 2, "isActive": true },
+  { "type": "earrings", "code": "drop", "name": "Khuyên dáng dài", "description": "Nụ trên cùng dây buông và đá rơi phía dưới.", "sortOrder": 3, "isActive": true },
+
+  { "type": "pendant", "code": "round", "name": "Tròn (medallion)", "description": "Mặt tròn cổ điển, có thể khắc chữ mặt sau.", "sortOrder": 1, "isActive": true },
+  { "type": "pendant", "code": "teardrop", "name": "Giọt nước", "description": "Dáng giọt nước thanh mảnh.", "sortOrder": 2, "isActive": true },
+  { "type": "pendant", "code": "heart", "name": "Trái tim", "description": "Biểu tượng tình yêu.", "sortOrder": 3, "isActive": true },
+  { "type": "pendant", "code": "star", "name": "Ngôi sao", "description": "Ngôi sao năm cánh.", "sortOrder": 4, "isActive": true },
+  { "type": "pendant", "code": "bar", "name": "Thanh dọc", "description": "Thanh kim loại tối giản, hợp khắc tên.", "sortOrder": 5, "isActive": true },
+  { "type": "pendant", "code": "solitaire", "name": "Giọt đá", "description": "Một viên đá treo trên móc, không có mặt kim loại.", "sortOrder": 6, "isActive": true },
+
+  { "type": "custom", "code": "free", "name": "Tự do", "description": "Ghép khối, đá và hình dạng tùy ý – không giới hạn kiểu dáng.", "sortOrder": 1, "isActive": true }
+]

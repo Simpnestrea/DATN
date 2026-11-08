@@ -1,0 +1,154 @@
+@import 'tailwindcss';
+
+/* ===== Bảng màu & font của NGK (tông tối sang trọng) ===== */
+@theme {
+  --font-sans: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+
+  --color-ink-950: #09090b;
+  --color-ink-900: #0e0e10;
+  --color-ink-850: #131316;
+  --color-ink-800: #18181c;
+  --color-ink-750: #1e1e23;
+  --color-ink-700: #26262c;
+  --color-ink-600: #34343c;
+  --color-ink-500: #4a4a54;
+
+  --color-cream-50: #f6f2ea;
+  --color-cream-100: #ece6da;
+  --color-cream-300: #c9c1b2;
+  --color-cream-500: #9b9486;
+  --color-cream-600: #7a7468;
+
+  --color-gold-200: #f3e2b3;
+  --color-gold-300: #e8cf8e;
+  --color-gold-400: #d9b766;
+  --color-gold-500: #c9a14d;
+  --color-gold-600: #a8823a;
+
+  --color-rose-400: #e7a08f;
+  --color-danger: #e5675f;
+  --color-success: #6fc49a;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-ink-900 font-sans text-cream-100 antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--color-gold-400) 40%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold-400);
+    outline-offset: 2px;
+  }
+  /* thanh cuộn mảnh */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-ink-600) transparent;
+  }
+}
+
+@layer components {
+  .text-gold-gradient {
+    background: linear-gradient(120deg, #f6e7bd 0%, #d9b766 45%, #a8823a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .panel-card {
+    @apply rounded-2xl border border-ink-700 bg-ink-800/80 backdrop-blur;
+  }
+  .eyebrow {
+    @apply text-[11px] font-semibold tracking-[0.22em] text-gold-400 uppercase;
+  }
+}
+
+/* Thanh trượt (range) theo phong cách NGK */
+input[type='range'].ngk-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    var(--color-gold-400) 0%,
+    var(--color-gold-400) var(--fill, 50%),
+    var(--color-ink-600) var(--fill, 50%),
+    var(--color-ink-600) 100%
+  );
+  cursor: pointer;
+}
+input[type='range'].ngk-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-gold-200);
+  border: 3px solid var(--color-gold-500);
+  box-shadow: 0 0 0 4px rgb(217 183 102 / 0.15);
+  transition: transform 0.15s;
+}
+input[type='range'].ngk-range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-gold-200);
+  border: 3px solid var(--color-gold-500);
+}
+input[type='range'].ngk-range:active::-webkit-slider-thumb {
+  transform: scale(1.15);
+}
+input[type='range'].ngk-range:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@keyframes ngk-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: ngk-fade-up 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes ngk-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--color-ink-800) 25%, var(--color-ink-700) 50%, var(--color-ink-800) 75%);
+  background-size: 200% 100%;
+  animation: ngk-shimmer 1.6s infinite linear;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* IN (bảng thông số PDF): nền trắng, bảng màu sáng – nếu không, lề trang in bị tô màu tối của chế độ dark */
+@media print {
+  html {
+    color-scheme: light;
+    background: #fff;
+  }
+  body {
+    background: #fff;
+  }
+}

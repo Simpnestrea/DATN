@@ -1,0 +1,159 @@
+[
+  {
+    "code": "solitaire-classic",
+    "title": "Nhẫn đính hôn Solitaire",
+    "description": "Kim cương tròn 6.5 mm trên ổ 6 chấu, đai bạch kim thanh mảnh.",
+    "type": "ring",
+    "featured": true,
+    "config": {
+      "style": "solitaire",
+      "metal": { "code": "platinum-950", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "diamond", "cut": "round", "sizeMm": 6.5, "setting": "prong6" },
+      "size": { "ringSize": 12, "bandWidth": 2, "bandThickness": 1.7, "profile": "comfort" }
+    }
+  },
+  {
+    "code": "halo-rose",
+    "title": "Nhẫn Halo vàng hồng",
+    "description": "Morganite oval bao quanh bởi vòng kim cương tấm, thân đính pavé.",
+    "type": "ring",
+    "featured": true,
+    "config": {
+      "style": "halo",
+      "metal": { "code": "gold-rose-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "morganite", "cut": "oval", "sizeMm": 6.5, "setting": "prong4" },
+      "deco": { "halo": true, "pave": true, "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "three-stone-sapphire",
+    "title": "Nhẫn ba viên Sapphire",
+    "description": "Sapphire xanh lam ở giữa, hai kim cương nhỏ hai bên, vàng 18K.",
+    "type": "ring",
+    "featured": false,
+    "config": {
+      "style": "three-stone",
+      "metal": { "code": "gold-yellow-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "sapphire", "cut": "oval", "sizeMm": 6, "setting": "prong4" },
+      "size": { "bandWidth": 2.4 }
+    }
+  },
+  {
+    "code": "eternity-white",
+    "title": "Nhẫn Eternity vàng trắng",
+    "description": "Kim cương tấm chạy quanh toàn bộ vòng nhẫn, viền hạt milgrain.",
+    "type": "ring",
+    "featured": false,
+    "config": {
+      "style": "eternity",
+      "metal": { "code": "gold-white-18k", "finish": "polished" },
+      "size": { "bandWidth": 2.6, "bandThickness": 1.8 },
+      "deco": { "pave": true, "pattern": "milgrain", "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "ruby-drop-necklace",
+    "title": "Dây chuyền giọt lệ Ruby",
+    "description": "Ruby giác giọt nước treo trên dây mắt xích vàng hồng 45 cm.",
+    "type": "necklace",
+    "featured": true,
+    "config": {
+      "style": "cable",
+      "metal": { "code": "gold-rose-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "ruby", "cut": "pear", "sizeMm": 7, "setting": "prong4" },
+      "size": { "length": 450, "chainThickness": 1.3 },
+      "deco": { "pendantShape": "solitaire", "halo": true, "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "tennis-bracelet",
+    "title": "Lắc tay Tennis kim cương",
+    "description": "Một hàng kim cương 3 mm đều nhau trên vàng trắng.",
+    "type": "bracelet",
+    "featured": true,
+    "config": {
+      "style": "tennis",
+      "metal": { "code": "gold-white-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "diamond", "cut": "round", "sizeMm": 3.2, "setting": "prong4" },
+      "size": { "circumference": 175 }
+    }
+  },
+  {
+    "code": "emerald-bangle",
+    "title": "Vòng kiềng Emerald",
+    "description": "Vòng kiềng vàng 18K bề mặt xước, viên emerald ổ bao.",
+    "type": "bracelet",
+    "featured": false,
+    "config": {
+      "style": "bangle",
+      "metal": { "code": "gold-yellow-18k", "finish": "brushed" },
+      "gem": { "enabled": true, "stone": "emerald", "cut": "emerald", "sizeMm": 6, "setting": "bezel" },
+      "size": { "circumference": 180, "width": 5, "thickness": 2.4 }
+    }
+  },
+  {
+    "code": "pearl-studs",
+    "title": "Khuyên tai ngọc trai",
+    "description": "Ngọc trai tròn 7.5 mm trên chốt vàng 18K – thanh lịch mỗi ngày.",
+    "type": "earrings",
+    "featured": true,
+    "config": {
+      "style": "stud",
+      "metal": { "code": "gold-yellow-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "pearl", "sizeMm": 7.5 }
+    }
+  },
+  {
+    "code": "pave-hoops",
+    "title": "Khuyên tròn đính đá",
+    "description": "Khuyên tròn 20 mm, mặt trước đính kim cương tấm.",
+    "type": "earrings",
+    "featured": false,
+    "config": {
+      "style": "hoop",
+      "metal": { "code": "gold-white-18k", "finish": "polished" },
+      "size": { "hoopDiameter": 20, "thickness": 2.2 },
+      "deco": { "pave": true, "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "emerald-heart-pendant",
+    "title": "Mặt dây trái tim Emerald",
+    "description": "Mặt trái tim vàng trắng, đá emerald giữa và viền kim cương.",
+    "type": "pendant",
+    "featured": true,
+    "config": {
+      "style": "heart",
+      "metal": { "code": "gold-white-18k", "finish": "polished" },
+      "gem": { "enabled": true, "stone": "emerald", "cut": "heart", "sizeMm": 6, "setting": "bezel" },
+      "size": { "pendantSize": 18, "thickness": 1.8 },
+      "deco": { "halo": true, "bail": "gem", "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "star-necklace",
+    "title": "Dây chuyền ngôi sao rỗng",
+    "description": "Ngôi sao rỗng viền đá trên dây bi bạc 925.",
+    "type": "necklace",
+    "featured": false,
+    "config": {
+      "style": "bead",
+      "metal": { "code": "silver-925", "finish": "polished" },
+      "size": { "length": 450, "chainThickness": 1.4, "pendantSize": 16 },
+      "deco": { "pendantShape": "star", "hollow": true, "halo": true, "accentStone": "diamond" }
+    }
+  },
+  {
+    "code": "twist-black",
+    "title": "Nhẫn xoắn Titan đen",
+    "description": "Hai sợi titan đen xoắn vào nhau cùng viên onyx nhỏ.",
+    "type": "ring",
+    "featured": false,
+    "config": {
+      "style": "twist",
+      "metal": { "code": "titanium-black", "finish": "brushed" },
+      "gem": { "enabled": true, "stone": "onyx", "cut": "princess", "sizeMm": 4, "setting": "bezel" },
+      "size": { "bandWidth": 3.5, "bandThickness": 2 }
+    }
+  }
+]
